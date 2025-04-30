@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced HTML5</title>
+    </head>
+    <body>
+        <h1>PLP Modules</h1>
+        <!--Ordered list-->
+        <ol type="I">
+            <li>Software Engineering</li>
+            <li>Web development</li>
+            <li>Python</li>
+            <li>Database design</li>
+            <li>Startup building</li>
+        </ol>
+        <!--External image-->
+        <h1>HTML Images</h1>
+        <img src="Flower guitar aesthetic.jpg" alt="Image of a flower guitar" width="350" height="400">
+        <!--HTML Table-->
+        <h1>HTML Tables</h1>
+        <table border="1">
+           <caption>Instructor details table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile no</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Elm Street, Springfield</td>
+                    <td>+1-555-1234</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                 <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Avenue, Lincoln</td>
+                    <td>+1-555-5678</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>789 Pine Road, Madison</td>
+                    <td>+1-555-8765</td>
+                    <td>michael.j@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>321 Maple Blvd, Denver</td>
+                    <td>+1-555-4321</td>
+                    <td>emily.davis@example.com</td>
+                </tr>
+                <tr>
+                    <td>William Brown</td>
+                    <td>654 Birch Lane, Austin</td>
+                    <td>+1-555-6789</td>
+                    <td>will.brown@example.com</td>
+                </tr>
+            </tbody>
+        </table> 
+        <!--HTML Forms-->
+        <h1>HTML Forms</h1>
+        <form action="" method="">
+            <!--Field for name input-->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <br><br>
+            <!--Field for email input-->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+            <br><br>
+            <!--Field for password input-->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+            <br><br>
+            <!--Field for gender input-->
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <br><br>
+            <!--Field for hobbies input-->
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" id="hobbies" name="hobbies" value="reading">Reading
+            <input type="checkbox" id="hobbies" name="hobbies" value="sports">Sports
+            <input type="checkbox" id="hobbies" name="hobbies" value="music">Music
+            <br><br>
+            <!--Field for module input-->
+            <label for="module">Module enrolled:</label>
+            <select id="module" name="module">
+                <option>--Select module--</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="database_design">Database Design</option>
+                <option value="startup_building">Startup Building</option>
+                <option value="web_development">Web Development</option>
+                <option value="python">Python</option>
+            </select>
+            <br><br>
+            <!--Field for Date of birth input-->
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" max="2025-03-30">
+            <br><br>
+            <button type="submit">Register</button>
+            <input type="reset" value="Cancel">
+        </form>
+    </body>
+</html>
